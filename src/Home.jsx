@@ -1,6 +1,8 @@
 import React from 'react';
 import ExperienceList from './Experience';
 import SocialIcons from './Socials';
+import { projects } from "./Projects";
+import ProjectCard from "./Projects";
 
 const Home = () => {
     return (
@@ -12,13 +14,17 @@ const Home = () => {
                 <h2 className="text-md my-8 font-light">❝ Too busy watering my own grass 🌱 <br /> to notice if it's <span className="text-[#4c8d07]">greener</span> on the other side ❞</h2>
                 
                 <ExperienceList />
-
                 <SocialIcons />
             </div>
 
-            <div className="ml-[40%] w-[60%] h-screen overflow-y-scroll bg-[#09090b] text-[#e4e4e7] p-4 pt-20 pl-20">
-                <h2 className="text-2xl font-bold mb-4">Fixed Section</h2>
-                <p>This part stays visible while scrolling.</p>
+            <div className="ml-[40%] w-[60%] h-screen overflow-y-scroll bg-[#09090b] text-[#e4e4e7] p-4 py-20 pl-10 pr-20">
+                <div className="max-w-6xl mx-auto overflow-y-auto scroll-smooth">
+                    <div className="grid grid-cols-2 gap-8">
+                    {projects.map((p, i) => (
+                        <ProjectCard key={i} {...p} />
+                    ))}
+                    </div>
+                </div>
             </div>
         </div>
     );
