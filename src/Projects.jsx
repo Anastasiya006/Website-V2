@@ -2,6 +2,18 @@ import { Link } from "react-router-dom";
 
 export const projects = [
   {
+    title: "CluePad",
+    description: "",
+    image: "./coming-soon.png",
+    link: "./",
+  },
+  {
+    title: "Chefusion",
+    description: "Smart virtual kitchen assistant",
+    image: "./coming-soon.png",
+    link: "./",
+  },
+  {
     title: "LeetTrack",
     description: "Track LeetCode submissions",
     image: "./coming-soon.png",

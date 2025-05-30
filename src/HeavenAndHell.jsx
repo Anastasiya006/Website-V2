@@ -11,7 +11,7 @@ const HeavenAndHell = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="h-screen max-w-3xl mx-auto py-20 overflow-y-auto scroll-smooth">
+        <div className="h-screen max-w-4xl mx-auto py-20 overflow-y-auto scroll-smooth">
             <button
                 onClick={() => navigate(-1)}
                 className="mb-2 flex items-center text-sm text-[#e4e4e7] hover:text-white transition"
