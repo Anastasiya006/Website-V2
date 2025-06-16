@@ -33,9 +33,9 @@ const PokePop = () => {
 
             <div className="overflow-hidden rounded-md">
                 <img
-                src="./src/assets/test.png"
+                src="./src/assets/poke-pop/poke-pop.png"
                 alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                className="w-full h-155 object-cover"
                 />
             </div>
 
@@ -142,10 +142,12 @@ const PokePop = () => {
                 Demo
             </h2>
             <div className="overflow-hidden rounded-md">
-                <img
-                src="./src/assets/test.png"
-                alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                <video
+                    src="./src/assets/poke-pop/poke-pop.mp4" 
+                    controls
+                    autoPlay={true}
+                    loop={true}
+                    className="w-full h-auto object-cover"
                 />
             </div>
         </div>

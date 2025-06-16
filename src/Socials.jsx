@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
-import { LuFile } from 'react-icons/lu';
 
 const SocialIcons = () => {
   return (
@@ -13,9 +12,6 @@ const SocialIcons = () => {
       </a>
       <a href="mailto:avolgina@uwaterloo.ca">
         <HiOutlineMail className="w-8 h-7 text-zinc-100 hover:text-[#4c8d07] transition" />
-      </a>
-      <a href="https://drive.google.com/file/d/1HnsuV2-IvYn12GtaodQGBaQrd1gyGcAO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-        <LuFile className="w-6 h-6 text-zinc-100 hover:text-[#4c8d07] transition" />
       </a>
     </div>
   );

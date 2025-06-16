@@ -2,39 +2,15 @@ import { Link } from "react-router-dom";
 
 export const projects = [
   {
-    title: "CluePad",
-    description: "",
-    image: "./coming-soon.png",
-    link: "./",
-  },
-  {
-    title: "Chefusion",
-    description: "Smart virtual kitchen assistant",
-    image: "./coming-soon.png",
-    link: "./",
-  },
-  {
-    title: "LeetTrack",
-    description: "Track LeetCode submissions",
-    image: "./coming-soon.png",
-    link: "./",
-  },
-  {
-    title: "Tiny Tray Cafe",
-    description: "2D cooking simulator",
-    image: "./coming-soon.png",
-    link: "./",
-  },
-  {
     title: "Byte Buddy",
-    description: "Fully-interactive virtual desktop pet application (Best Begineer Hack @ YRHacks 2024)",
-    image: "/src/assets/test.png",
+    description: "Fully-interactive virtual desktop pet application",
+    image: "/src/assets/byte-buddy/byte-buddy.png",
     link: "./byte-buddy",
   },
   {
     title: "Jagame",
     description: "Java graphics library for beginner game developers",
-    image: "/src/assets/test.png",
+    image: "/src/assets/jagame/jagame.png",
     link: "./jagame",
   },
   {
@@ -58,7 +34,7 @@ const ProjectCard = ({ title, description, image, link }) => (
         <img
           src={image}
           alt={title}
-          className="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+          className="w-full h-55 object-cover transition-transform duration-300 ease-in-out hover:scale-105"
         />
       </div>
       <div className="p-4">

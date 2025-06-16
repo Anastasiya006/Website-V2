@@ -13,7 +13,7 @@ const Mouse = () => {
     <div
       className="pointer-events-none fixed inset-0 z-50"
       style={{
-        background: `radial-gradient(circle at ${position.x}px ${position.y}px, rgba(255,255,255,0.6), transparent 50px)`,
+        background: `radial-gradient(circle at ${position.x}px ${position.y}px, rgba(255,255,255,0.6), transparent 35px)`,
       }}
     />
   );

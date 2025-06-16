@@ -21,7 +21,7 @@ const Home = () => {
                     <h1 className="text-5xl font-bold text-zinc-100">Anastasiya Volgina</h1>
 
                     <p className="text-lg text-zinc-400">
-                        Currently studying Computer Engineering @ the University of Waterloo. Seeking Winter 2026 internships.
+                        Currently studying 2A Computer Engineering @ University of Waterloo. Seeking Winter 2026 internships.
                         <br />
                         ❝ Too busy watering my own grass to notice if it's <span className="text-[#4c8d07]">greener</span> on the other side 🌱 ❞
                     </p>

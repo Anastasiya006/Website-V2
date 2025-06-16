@@ -28,7 +28,7 @@ const HeavenAndHell = () => {
                 <img
                 src="./src/assets/heaven-and-hell/heaven-and-hell.png"
                 alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                className="w-full h-120 object-cover"
                 />
             </div>
 
@@ -106,10 +106,12 @@ const HeavenAndHell = () => {
                 Demo
             </h2>
             <div className="overflow-hidden rounded-md">
-                <img
-                src="./src/assets/test.png"
-                alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                <video
+                    src="./src/assets/heaven-and-hell/heaven-and-hell.mp4" 
+                    controls
+                    autoPlay={true}
+                    loop={true}
+                    className="w-full h-auto object-cover"
                 />
             </div>
         </div>

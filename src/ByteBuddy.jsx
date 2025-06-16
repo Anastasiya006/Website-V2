@@ -31,9 +31,9 @@ const ByteBuddy = () => {
 
             <div className="overflow-hidden rounded-md">
                 <img
-                src="./src/assets/test.png"
+                src="./src/assets/byte-buddy/byte-buddy1.png"
                 alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                className="w-full h-125 object-cover"
                 />
             </div>
 
@@ -132,10 +132,12 @@ const ByteBuddy = () => {
                 Demo
             </h2>
             <div className="overflow-hidden rounded-md">
-                <img
-                src="./src/assets/test.png"
-                alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                <video
+                    src="./src/assets/byte-buddy/byte-buddy.mp4" 
+                    controls
+                    autoPlay={true}
+                    loop={true}
+                    className="w-full h-auto object-cover"
                 />
             </div>
         </div>

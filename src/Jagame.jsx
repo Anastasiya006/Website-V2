@@ -329,9 +329,9 @@ const Jagame = () => {
 
             <div className="overflow-hidden rounded-md">
                 <img
-                src="./src/assets/test.png"
+                src="./src/assets/jagame/jagame.png"
                 alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                className="w-full h-130 object-cover"
                 />
             </div>
 
@@ -403,10 +403,13 @@ const Jagame = () => {
                 Demo
             </h2>
             <div className="overflow-hidden rounded-md">
-                <img
-                src="./src/assets/test.png"
-                alt="Byte Budy"
-                className="w-full h-100 object-cover"
+                <video
+                    src="./src/assets/jagame/jagame.mp4" 
+                    controls
+                    autoPlay={true}
+                    loop={true}
+                    muted={true}
+                    className="w-full h-auto object-cover"
                 />
             </div>
 
