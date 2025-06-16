@@ -33,7 +33,7 @@ const PokePop = () => {
 
             <div className="overflow-hidden rounded-md">
                 <img
-                src="./src/assets/poke-pop/poke-pop.png"
+                src="/assets/poke-pop/poke-pop.png"
                 alt="Byte Budy"
                 className="w-full h-155 object-cover"
                 />
@@ -143,7 +143,7 @@ const PokePop = () => {
             </h2>
             <div className="overflow-hidden rounded-md">
                 <video
-                    src="./src/assets/poke-pop/poke-pop.mp4" 
+                    src="/assets/poke-pop/poke-pop.mp4" 
                     controls
                     autoPlay={true}
                     loop={true}

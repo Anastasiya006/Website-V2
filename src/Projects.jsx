@@ -4,25 +4,25 @@ export const projects = [
   {
     title: "Byte Buddy",
     description: "Fully-interactive virtual desktop pet application",
-    image: "/src/assets/byte-buddy/byte-buddy.png",
+    image: "/assets/byte-buddy/byte-buddy.png",
     link: "./byte-buddy",
   },
   {
     title: "Jagame",
     description: "Java graphics library for beginner game developers",
-    image: "/src/assets/jagame/jagame.png",
+    image: "/assets/jagame/jagame.png",
     link: "./jagame",
   },
   {
     title: "Poké-Pop",
     description: "2D turn-based Pokémon fighting game",
-    image: "/src/assets/poke-pop/poke-pop.png",
+    image: "/assets/poke-pop/poke-pop.png",
     link: "./poke-pop",
   },
   {
     title: "Heaven and Hell",
     description: "2D platformer game",
-    image: "/src/assets/heaven-and-hell/heaven-and-hell.png",
+    image: "/assets/heaven-and-hell/heaven-and-hell.png",
     link: "./heaven-and-hell",
   },
 ];
